@@ -20,7 +20,7 @@ const Header = ({ children, className }: HeaderProps) => {
           height={32}
           className='hidden md:block'
         />
-        <span className='ml-2 font-bold hidden md:inline'>DocuVerse</span>
+        <span className='ml-2 font-bold hidden md:inline'>LiveDraft</span>
 
         <Image
           src="/assets/icons/logo-icon.svg"
@@ -29,7 +29,7 @@ const Header = ({ children, className }: HeaderProps) => {
           height={32}
           className='mr-2 md:hidden'
         />
-        <span className='font-bold md:hidden'>DocuVerse</span>
+        <span className='font-bold md:hidden'>LiveDraft</span>
       </Link>
       {children}
     </div>
